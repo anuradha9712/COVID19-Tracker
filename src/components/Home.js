@@ -10,7 +10,7 @@ import symptoms from '../images/symptoms.png';
 
 const Home = () => {
     return (
-        <div className="App-header" >
+        <div className="outerDiv">
             <header className="App">
                 <br/>
                 <h3>COVID-19 TRACKER</h3>
@@ -33,7 +33,7 @@ const Home = () => {
                     <br/>  by touching a contaminated surface and then your eyes, nose or mouth.</p>
                 </div>
                 <div className="col-md-4">
-                    <img src={img1} alt="img1" height="250px" width="350px" className="img-responsive" />
+                    <img src={img1} alt="img1" height="300vh" width="230vw"  />
                 </div>
             </div>
 
@@ -71,7 +71,7 @@ const Home = () => {
                 </div>
                 <div className="col-md-5">
 
-                    <img src={symptoms} alt="img1" height="400px" width="400px" className="responsive-image" style={{ float: "right" }} />
+                    <img src={symptoms} alt="img1" height="350vh" width="250vw"  />
                     {/*<img src={img2} alt = "img2" srcSet={`${img2} 0w, ${img2} 0w`} />*/}
                 </div>
 
@@ -93,16 +93,16 @@ const Home = () => {
                     <p>Avoiding unneeded visits to medical facilities allows healthcare systems <br/> to operate more effectively, therefore protecting you and others.</p>
                 </div>
                 <div className="col-md-6">
-                    <img src={img3} alt="img3" height="400px" width="250px" />
-                    <img src={img4} alt="img3" height="400px" width="250px" />
+                    <img src={img3} alt="img3" height="400vmin" width="250vmin" />
+                    <img src={img4} alt="img3" height="400vmin" width="250vmin" />
                 </div>
             </div>
             <hr /><br /><br />
 
-            <div className="App">
+            <div className="App outerDiv">
                 <h3>For More Details:</h3>
                 <a href="https://www.mygov.in/covid-19/" className="App-link">VISIT US:</a> <br />
-                <img src={img5} alt="img5" height="500px" width="500px" />
+                <img src={img5} alt="img5" className="img-center"  />
 
             </div>
 

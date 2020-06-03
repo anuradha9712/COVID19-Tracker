@@ -44,7 +44,7 @@ const Global = ({ data }) => {
 
                         <div className="row">
                             {Object.entries(data.Global).map(item => (
-                                <Display key={item[0]} name={item[0]} number={item[1]} />
+                                <Display key={item[0]} name={item[0]} color="whitesmoke" number={item[1]} />
 
                             ))}
                         </div>
