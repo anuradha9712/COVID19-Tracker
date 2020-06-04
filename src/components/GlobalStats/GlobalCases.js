@@ -67,7 +67,11 @@ const Global = ({ data }) => {
             </div>
         )
     }
-    else return <h3>Loading...</h3>
+    else return (
+        <div>
+        <h3>Loading...</h3>
+        <p>Please Refresh the page...</p>
+    </div>)
 }
 
 export default Global;
