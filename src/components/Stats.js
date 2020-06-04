@@ -6,6 +6,8 @@ import IndianStats from './IndianStats/indiaCases';
 import Global from './GlobalStats/GlobalCases';
 import Home from './Home';
 import axios from 'axios';
+import Map from './HereMap';
+
 
 
 
@@ -38,6 +40,8 @@ const Statistic = () => {
           <Route path="/about"><Home /> </Route>
           <Route path="/global"> <Global data={allData}  /> </Route> 
           <Route path="/india"> <IndianStats  /> </Route> 
+          <Route path="/map"> <Map  /> </Route> 
+
 
         </Switch>
     </Wrapper> 
