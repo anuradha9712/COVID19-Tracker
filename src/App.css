@@ -43,10 +43,10 @@
     box-shadow: 0 0 6px #e8e8e8;
     background-color: #fff;
     cursor: pointer;
-    display: inline-block;
+    /*display: inline-block;*/
     padding-top: 10px;
-    margin-left: 25px;
-    margin-right: 25px;
+    /*margin-left: 25px;
+    margin-right: 25px;*/
 
   }
   .searchBar{
